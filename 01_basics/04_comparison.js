@@ -13,5 +13,5 @@
 // console.log(undefined > 0);
 // console.log(undefined = 0);
 
-
+// === strict checking its check our values and also check the DataTypes
 
