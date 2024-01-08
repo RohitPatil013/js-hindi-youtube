@@ -29,3 +29,27 @@ const myFunction = function(){
 }
 
 console.log(typeof myFunction);
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// stack (primitive),  Heap (Non-primitive)
+
+let myYouTubeName = "rohitpatilvlogs"
+let anotherName = myYouTubeName
+anotherName = "chaiaurcode"
+console.log(myYouTubeName);
+console.log(anotherName);
+
+// heap
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@sbl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "rohit@google.com"
+
+console.log(userOne.email);       // both are give us referance direct
+console.log(userTwo.email);   // we've done any changes all our changes are replicate to our original value
